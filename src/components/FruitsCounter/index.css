@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+}
+.heading {
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+  }
+}
+.span-element {
+  color: #ffd569;
+}
+
+@media screen and (min-width: 768px) {
+  .fruit-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 120px;
+  height: 120;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+}
+.button {
+  margin-bottom: 12px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+.author {
+  font-family: 'Caveat';
+  font-size: 15px;
+  text-align: right;
+}
